@@ -5,18 +5,26 @@
   <meta charset="utf-8">
   <title>Teaser</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Training HTML CSS - Sun*" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/mediaqueries.css">
   <link rel="stylesheet" href="css/reponsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="wrapper">
+
+    <!-- Header  -->
     <header>
-      <div class="top-head" id="parallax" style="overflow:hidden">
+      <div class="top-head" id="parallax">
         <img class="logo" id="logo1" src="image-assets/logo.svg" alt="abc">
         <h1>｢次｣と｢続き｣が生まれるクリエイティブプラットフォーム</h1>
         <h1 class="h1-sp">｢次｣と｢続き｣が生まれる </h1>
@@ -26,23 +34,24 @@
             PLAY MOVIE
           </button>
         </a>
-
         <a href="#">
           <img src="image-assets/scroll.png" alt="">
         </a>
-
       </div>
     </header>
+    <!-- /. Header  -->
 
+    <!-- Main  -->
     <main>
-      <section class="makenext-area">
+      <!-- Makenext -->
+      <section class="makenext-area section-primary">
         <div class="container">
-          <div class="col-6 makenext-left">
-            <h2>Make next_</h2>
+          <div class="col-6 makenext-area__left">
+            <h2 class="section-primary__title">Make next_</h2>
             <b>｢次｣と｢続き｣が生まれる</b>
             <b>クリエイティブプラットフォーム</b>
           </div>
-          <div class="col-6 makenext-right">
+          <div class="col-6 makenext-area__right">
             <b>クリエイターとユニットの橋渡しになる</b>
             <p>BAUS( バウス )はクリエイターやユニットが自発的に未来に向けて橋を架けるプラットフォームです。
               企業、団体、個人などのあらゆる作り手が社会とつながり、所属や業種に囚われる事なくプロジェクト特化型のクリエイティブチームを構築します。
@@ -52,17 +61,18 @@
           </div>
         </div>
       </section>
+      <!-- /. Makenext  -->
 
-      <section class="open-area">
+      <!-- Open Area  -->
+      <section class="open-area section-primary">
         <div class="container">
-          <h2>2017年6月OPEN</h2>
+          <h2 class="section-primary__title">2017年6月OPEN</h2>
           <p class="p-pc">メールアドレスをご登録いただいた方に、BAUS（バウス）に関する情報をいち早くお届けします。</p>
           <p class="p-sp p-sp-tren">メールアドレスをご登録いただいた方に、</p>
           <p class="p-sp">BAUS（バウス）に関する情報をいち早くお届けします。</p>
           <div class="open-box">
-            <div class="open-left">
-              メールアドレスを入力してください
-            </div>
+            <input class="open-left" placeholder="メールアドレスを入力してください">
+            </input>
             <div class="open-right">
               <img src="image-assets/icon_register.png" alt="">
               事前登録
@@ -70,21 +80,20 @@
           </div>
         </div>
       </section>
+      <!-- /. Open Area -->
 
-      <section class="news-area">
+      <!-- News Area  -->
+      <section class="news-area section-primary">
         <div class="container">
           <div class="top-line">
             <div class="top-line-left">
-
             </div>
             <div class="top-line-right">
-
             </div>
           </div>
           <div class="title-box">
-            <h2>NEWS</h2>
+            <h2 class="section-primary__title">NEWS</h2>
             <span>お知らせ</span>
-
           </div>
           <div class="col-s-12 news-box">
             <div class="news1">
@@ -128,7 +137,10 @@
         </div>
 
       </section>
-      <section class="flatform-area">
+      <!-- /. News Area  -->
+
+      <!-- Flatform  -->
+      <section class="flatform-area section-primary">
         <div class="container">
           <div class="top-line">
             <div class="top-line-left">
@@ -137,16 +149,16 @@
             </div>
           </div>
           <div class="title-box">
-            <h2>PLATFORM</h2>
+            <h2 class="section-primary__title">PLATFORM</h2>
             <span>プラットフォームについて</span>
 
           </div>
-          <div class="fl-content-top">
+          <div class="flatform-area__content">
             <p>　BAUSではクリエイティブプラットフォームとして、クリエイターとユニットをつなぐための機会が大きく3つあります。</p>
             <p>すべてのコンテンツはユニット（企業・団体）・クリエイター（個人）に関わらず掲載・応募いただけます。</p>
           </div>
-          <div class="fl-box">
-            <div class="fl-box-left">
+          <div class="flatform-area__box">
+            <div class="flatform-area__box__left">
               <p>ユーザータイプ</p>
               <div class="fl-b-left">
                 <div class="fl-b-left-1">
@@ -160,26 +172,26 @@
               </div>
 
             </div>
-            <div class="fl-box-right">
-              <div class="fl-box-r">
-                <div class="fl-box-r-a">
-                  <div class="fl-box-r-a-1">
+            <div class="flatform-area__box__right">
+              <div class="flatform-area__box-r">
+                <div class="flatform-area__box-r-a">
+                  <div class="flatform-area__box-r-a-1">
                     <div class="">
                       <h3>MAKE TEAM </h3>
                     </div>
-                    <div class="fl-box-r-a-1-r">
+                    <div class="flatform-area__box-r-a-1-r">
                       <span>掲載・応募</span>
                       <img src="image-assets/illust_creator_unit.png" alt="">
 
                     </div>
                   </div>
 
-                  <div class="fl-box-r-a-2">
+                  <div class="flatform-area__box-r-a-2">
                     <p> MAKE TEAMはオープンイノベーションにも最適です。</p>
                     <img src="image-assets/tamgiac.png" alt="">
                   </div>
                 </div>
-                <div class="fl-box-r-b">
+                <div class="flatform-area__box-r-b">
                   <b>プロジェクトを一緒に作り上げるチームスタッフを探す</b>
                   <p>
                     制作するプロジェクトに対して必要なスタッフを、役職ごとにピンポイントでスピーディにアサインすることができます。急ぎのプロジェクトから、自主制作、専門性を求める仕事など多種多様なプロジェクトご利用頂けます。
@@ -187,49 +199,49 @@
 
                 </div>
               </div>
-              <div class="fl-box-r">
-                <div class="fl-box-r-a">
-                  <div class="fl-box-r-a-1">
+              <div class="flatform-area__box-r">
+                <div class="flatform-area__box-r-a">
+                  <div class="flatform-area__box-r-a-1">
                     <div class="">
                       <h3>RECRUIT </h3>
                     </div>
-                    <div class="fl-box-r-a-1-r">
+                    <div class="flatform-area__box-r-a-1-r">
                       <span>掲載・応募</span>
                       <img src="image-assets/illust_creator_unit.png" alt="">
 
                     </div>
                   </div>
 
-                  <div class="fl-box-r-a-2">
+                  <div class="flatform-area__box-r-a-2">
                     <p>顧問契約や師弟関係の構築にもご利用いただけます。</p>
                     <img src="image-assets/tamgiac.png" alt="">
                   </div>
                 </div>
-                <div class="fl-box-r-b">
+                <div class="flatform-area__box-r-b">
                   <b>長く共に働くメンバーを探す</b>
                   <p>ユニット(団体・企業)が、メンバー(社員)として長期的に制作活動を共にし、仕事や作品を作ってくれる人材と出会うきっかけづくりを提供する場です。</p>
 
                 </div>
               </div>
-              <div class="fl-box-r">
-                <div class="fl-box-r-a">
-                  <div class="fl-box-r-a-1">
+              <div class="flatform-area__box-r">
+                <div class="flatform-area__box-r-a">
+                  <div class="flatform-area__box-r-a-1">
                     <div class="">
                       <h3>MAGAZINE </h3>
                     </div>
-                    <div class="fl-box-r-a-1-r">
+                    <div class="flatform-area__box-r-a-1-r">
                       <span>閲覧</span>
                       <img src="image-assets/illust_creator_unit.png" alt="">
 
                     </div>
                   </div>
 
-                  <div class="fl-box-r-a-2">
+                  <div class="flatform-area__box-r-a-2">
                     <p>顧問契約や師弟関係の構築にもご利用いただけます。</p>
                     <img src="image-assets/tamgiac.png" alt="">
                   </div>
                 </div>
-                <div class="fl-box-r-b">
+                <div class="flatform-area__box-r-b">
                   <p>MAKE TEAMで行われたプロジェクトや、今注目のユニット、イベントや業界のニュースなど、気になるトピックを取り上げて掲載をしていきます。</p>
 
                 </div>
@@ -242,8 +254,10 @@
           </div>
         </div>
       </section>
+      <!-- /. Flatform  -->
 
-      <section class="baus-area">
+      <!-- About  -->
+      <section class="baus-area section-primary">
         <div class="container">
           <div class="top-line">
             <div class="top-line-left">
@@ -252,7 +266,7 @@
             </div>
           </div>
           <div class="title-box">
-            <h2>BAUS TEAM</h2>
+            <h2 class="section-primary__title">BAUS TEAM</h2>
             <span>運営について</span>
 
           </div>
@@ -446,7 +460,10 @@
           </div>
         </div>
       </section>
-      <section class="official-partner">
+      <!-- /. About  -->
+
+      <!-- Official Partner  -->
+      <section class="official-partner section-primary">
         <div class="container">
           <div class="top-line">
             <div class="top-line-left">
@@ -455,34 +472,48 @@
             </div>
           </div>
           <div class="title-box">
-            <h2>OFFICIAL PARTNER</h2>
+            <h2 class="section-primary__title">OFFICIAL PARTNER</h2>
             <span>支援団体</span>
 
           </div>
-          <div class="o-p-box-imgs">
-            <div class="o-p-img">
-              <img src="image-assets/pic_supporter_cekai.png" alt="">
+          <div class="officical-parter__team">
+            <div class="officical-parter__team__parter-item">
+              <div class="officical-parter__team__parter-item__box">
+                <img src="image-assets/pic_supporter_cekai.png" alt="">
+              </div>
             </div>
-            <div class="o-p-img">
-              <img src="image-assets/pic_supporter_epoch.png" alt="">
+            <div class="officical-parter__team__parter-item">
+              <div class="officical-parter__team__parter-item__box">
+                <img src="image-assets/pic_supporter_epoch.png" alt="">
+              </div>
             </div>
-            <div class="o-p-img">
-              <img src="image-assets/pic_supporter_cshool.png" alt="">
+            <div class="officical-parter__team__parter-item">
+              <div class="officical-parter__team__parter-item__box">
+                <img src="image-assets/pic_supporter_cshool.png" alt="">
+
+              </div>
             </div>
-            <div class="o-p-img">
-              <img src="image-assets/pic_supporter_sonicjam.png" alt="">
+            <div class="officical-parter__team__parter-item">
+              <div class="officical-parter__team__parter-item__box">
+                <img src="image-assets/pic_supporter_sonicjam.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </section>
-    </main>
+      <!-- /. Official Parter  -->
 
+    </main>
+    <!-- /. Main -->
+
+    <!-- Footer  -->
     <div class="footer">
       <small>Copyright © 2017 BAUS</small>
     </div>
+    <!-- /. Footer -->
 
   </div>
-  
+
   <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
   <script src="js/index.js"></script>
 </body>

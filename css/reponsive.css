@@ -1,24 +1,30 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
-}
+  /* .container {
+    padding: 0 15px;
+  } */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 @media only screen and (max-width: 992px)
 {
-  .container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .fl-box-r {
+ 
+  .flatform-area__box-r {
     display: block;
   }
-  .fl-box-r-b {
+ 
+  .flatform-area__box-r-b {
     padding-top: 15px;
   }
-  .fl-box-left {
+  .flatform-area__box__left {
     min-width: 225px;
   }
-  .o-p-img {
+  .officical-parter__team__parter-item {
     margin-bottom: 20px;
+  }
+
+  .flatform-area__box-r-b {
+    padding-left: 0;
   }
 }
 @media only screen and (max-width: 768px)
@@ -31,9 +37,9 @@
     width: 92%;
   }
   .top-head button {
-    width: 100%;
-    height: 95px;
-    margin-top: 100px;
+    width: 90%;
+    height: 80px;
+    margin-top: 50px;
     font-size: 30px;
   }
   .top-head h1 {
@@ -117,10 +123,10 @@
       padding-right: 0;
 
     }
-    .fl-box {
+    .flatform-area__box {
       display: block;
     }
-    .fl-box-left {
+    .flatform-area__box__left {
       width: 100%;
       margin-bottom: 30px;
       padding-top: 29px;
@@ -131,7 +137,7 @@
       justify-content: center;
 
     }
-    .fl-box-left p {
+    .flatform-area__box__left p {
       padding-top: 0;
     }
     .fl-b-left-1 {
@@ -163,7 +169,7 @@
       margin-left: 0px;
       margin-top: 0px;
       margin-bottom: 15px;
-      width: 285px;
+      width: 260px;
 
     }
     .baus-team-box-left {
@@ -173,10 +179,10 @@
       display: block;
       padding-top: 20px;
     }
-    .o-p-box-imgs img {
+    .officical-parter__team img {
       width: 209px;
     }
-    .o-p-box-imgs {
+    .officical-parter__team {
       justify-content: space-around;
       flex-wrap: wrap;
     }
@@ -184,14 +190,31 @@
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+
   .baus-team-box-left img {
-    width: 240px;
+    width: 150px;
   }
-  .fl-box-left img {
+  .baus-t-box-1 {
+    padding-top: 10px;
+  }
+  .flatform-area__box__left img {
     width: 98px;
   }
   .title-box h2 {
     font-size: 40px;
+  }
+  .flatform-area__box-r-a-1-r img {
+    width: 99px;
+  }
+  .flatform-area__box-r {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .baus-team-box-left {
+    min-width: 160px;
+  }
+  .flatform-area__box-r-a-2 p {
+    text-align: center;
   }
 }
 
@@ -200,21 +223,26 @@
   .makenext-area .container {
     display:flex;
   }
-  .makenext-left, .makenext-right {
+  .makenext-area__left, .makenext-area__right {
     text-align: left;
   }
   .top-head {
     background-image:url("../image-assets/movie_pc.png");
-
   }
-  .fl-box-left {
+  .flatform-area__box__left {
     margin-right: 20px;
+  }
+  .baus-team-box-right {
+    padding-right: 20px;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  .flatform-area__box-r-a {
+    min-width: 380px;
+  }
+ 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
