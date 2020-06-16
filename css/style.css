@@ -6,6 +6,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.container p { 
+  line-height: 27px;
+}
 
 .header-area {
   text-align: center;
@@ -448,7 +451,8 @@ body {
 }
 
 .baus-t-box-2 p {
-  line-height: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
 }
 
 .baus-team-box a {
