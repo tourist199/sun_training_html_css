@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
 }
 
-.top-head {
+.header-area {
   text-align: center;
   background-image: url("../image-assets/movie_sp.png");
   background-size: cover;
@@ -17,26 +17,26 @@ body {
   overflow: hidden;
 }
 
-.top-head .logo {
+.header-area .logo {
   margin-top: 240px;
   width: 605px;
 }
 
-.top-head h1 {
+.header-area h1 {
   padding-top: 45px;
   font-size: 23px;
 }
 
-.top-head .h1-sp {
+.header-area .header-area__title {
   display: none;
 }
 
-.top-head a {
+.header-area a {
   text-decoration: none;
   cursor: pointer;
 }
 
-.top-head button {
+.header-area button {
   cursor: pointer;
   display: block;
   margin: 0 auto;
@@ -50,7 +50,7 @@ body {
   color: white;
 }
 
-.top-head img {
+.header-area img {
   margin-top: 20px;
   width: 55px;
 }

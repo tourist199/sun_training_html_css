@@ -29,28 +29,28 @@
 }
 @media only screen and (max-width: 768px)
 {
-  .top-head {
+  .header-area {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .top-head .logo {
+  .header-area .logo {
     width: 92%;
   }
-  .top-head button {
+  .header-area button {
     width: 90%;
     height: 80px;
     margin-top: 50px;
     font-size: 30px;
   }
-  .top-head h1 {
+  .header-area h1 {
     display: none;
   }
-  .top-head .h1-sp {
+  .header-area .header-area__title {
     display: block;
     line-height: 37px;
 
   }
-  .top-head .h1-duoi {
+  .header-area .h1-duoi {
     padding: 0
   }
   .open-box {
@@ -191,6 +191,14 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
 
+  .header-area .logo {
+    margin-top: 167px;
+  }
+  .header-area button {
+    height: 50px;
+    width: 95%;
+    font-size: 18px;
+  }
   .baus-team-box-left img {
     width: 150px;
   }
@@ -226,7 +234,7 @@
   .makenext-area__left, .makenext-area__right {
     text-align: left;
   }
-  .top-head {
+  .header-area {
     background-image:url("../image-assets/movie_pc.png");
   }
   .flatform-area__box__left {
